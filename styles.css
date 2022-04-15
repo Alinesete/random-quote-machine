@@ -5,8 +5,16 @@
     vertical-align: baseline;
 }
 
+body{
+    background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/09/17/64247-Yeezus-Kanye_West.jpg");
+}
+
 #main-div {
     margin-top: 15%;
+}
+
+.quote-text{
+    color: #d9d9d9;
 }
 
 footer {
@@ -18,4 +26,21 @@ footer {
 
 footer a {
     text-decoration: none;
+}
+
+a {
+    color: #d9d9d9;
+}
+
+a:hover{
+    color: #bfbfbf;
+}
+
+p{
+    color:#d9d9d9;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p:decoration{
+    color: darkgray;
 }
