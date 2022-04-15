@@ -7,10 +7,15 @@
 
 body{
     background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/09/17/64247-Yeezus-Kanye_West.jpg");
+    font-family: 'Montserrat', sans-serif;
 }
 
 #main-div {
-    margin-top: 15%;
+    margin-top: 25vh;
+}
+
+.btn {
+    margin: 0 30px;
 }
 
 .quote-text{
@@ -24,12 +29,9 @@ footer {
     height: 40px;
 }
 
-footer a {
-    text-decoration: none;
-}
-
 a {
     color: #d9d9d9;
+    text-decoration: none;
 }
 
 a:hover{
@@ -38,7 +40,6 @@ a:hover{
 
 p{
     color:#d9d9d9;
-    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 p:decoration{

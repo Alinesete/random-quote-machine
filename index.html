@@ -13,23 +13,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- External Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="main-div" class="container-fluid text-center col-md-4 p-4 text-white bg-dark rounded-1">
-        <div id="quote-box d-flex justify-content-start">
+    <div id="main-div" class="container-fluid text-center col-md-4 p-5 text-white bg-dark rounded-1">
+        <div id="quote-box">
             <p class="decoration">━────── •●• ──────━</p>
             <div class="quote-text">
                 <i class="bi bi-quote"></i>
-                <span id="text">A</span>
+                <span id="text"></span>
             </div>
-            <div class="quote-author d-flex justify-content-center">
+            <div class="quote-author">
                 <span class="text-muted font-monospace" id="author"><i>Kanye West</i></span>
             </div>
-            <p class="decotarion">•────•──────────•────•</p>
+            <p class="decoration">•────•──────────•────•</p>
             <div class="buttons mt-4">
-                <a class="btn btn-primary" id="tweet-quote" target="_top"><i class="bi bi-twitter"></i></a>
-                <button class="btn btn-success" id="new-quote">New Quote</button>
+                <a class="btn btn-outline-primary" id="tweet-quote" href="https://twitter.com/intent/tweet?hashtags=quotes" target="_top"><i class="bi bi-twitter"></i></a>
+                <button class="btn btn-outline-light" id="new-quote"><i class="bi bi-arrow-clockwise"></i></button>
             </div>
         </div>
     </div>
